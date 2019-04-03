@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.app{
+    margin:auto;
+    margin-top: 30px;
+    width: 430px;
+    box-shadow: 0 0 20px black;
+    height: 360px;
+}
+h3{
+    font-size: 35px;
+    margin-bottom: 50px;
+    padding-top: 25px;
+}
+.result{
+    margin-top: 40px;
+    font-size: 30px;
+}
+input{
+    padding: 4px 4px;
+    height: 15px;
+    width: 100px;
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+    font-size: 20px;
+    color: darkred;
+    border: 2px solid darkorange;
+}
+button{
+    height: 30px;
+    width: 100px;
+    border: 2px solid darkred;
+    border-radius: 10px;
+    background: transparent;
+    font-size: 20px;
+    cursor: pointer;
+}
+h2{
+   margin-top: 20px;
+    font-size: 20px;
+}
+button:focus{
+    outline: none!important;
+}
